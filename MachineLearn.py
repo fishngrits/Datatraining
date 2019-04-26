@@ -32,5 +32,8 @@ my_k_nearest_neighbor = KNeighborsClassifier()
 my_k_nearest_neighbor.fit(X_train, Y_train)
 
 predictions_from_KNClassifier = my_k_nearest_neighbor.predict(X_test)
-
+print("Importing Large Data Sets and training and AI with it.")
+print("Once we have trained the the AI we test it to see how accurate it is of off the training data")
+print("Then the end all result you are seeing is the prediction.")
 print(accuracy_score(Y_test, predictions_from_KNClassifier))
+
